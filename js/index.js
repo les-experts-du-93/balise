@@ -5,7 +5,7 @@ function chercher() {
     document.getElementById("carte").src=`./map/${numero_balise}.jpg`;
     if (numero_balise === '172'){
         document.getElementById("titre-resultat").innerHTML = `Résultat de la recherche pour la balise ${numero_balise} :`
-        document.getElementById("ligne1").innerHTML = `La balise ${numero_balise} a comme équivalent la balise 168`
+        document.getElementById("ligne1").innerHTML = `La balise ${numero_balise} a comme équivalent les balises 168 et 130`
         document.getElementById("schema").src=`./balise/${numero_balise}.png`;
         boite.style.display = "block";
     }
@@ -77,7 +77,7 @@ function chercher() {
     }
     else if (numero_balise === '168'){
         document.getElementById("titre-resultat").innerHTML = `Résultat de la recherche pour la balise ${numero_balise} :`
-        document.getElementById("ligne1").innerHTML = `La balise ${numero_balise} a comme équivalent la balise 130`
+        document.getElementById("ligne1").innerHTML = `La balise ${numero_balise} a comme équivalent les balises 130 et 172`
         document.getElementById("schema").src=`./balise/${numero_balise}.png`;
         boite.style.display = "block";
     }
@@ -215,7 +215,7 @@ function chercher() {
     }
     else if (numero_balise === '130'){
         document.getElementById("titre-resultat").innerHTML = `Résultat de la recherche pour la balise ${numero_balise} :`
-        document.getElementById("ligne1").innerHTML = `La balise ${numero_balise} a comme équivalent la balise 172`
+        document.getElementById("ligne1").innerHTML = `La balise ${numero_balise} a comme équivalent les balises 172 et 168`
         document.getElementById("schema").src=`./balise/${numero_balise}.png`;
         boite.style.display = "block";
     }
