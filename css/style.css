@@ -1,0 +1,119 @@
+/* importation des polices */
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: linear-gradient(#7ed6ff, #54a9ff);
+    height: 250vw;
+}
+
+#titre{
+    padding-top: 6vw;
+    color: white;
+    text-align: center;
+    font-size: 7vw;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+#sous-titre{
+    color: white;
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+#boite-balise{
+    padding-top: 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+#balise{
+    text-align: center;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 4vw;
+    width: 50%;
+    height: 6vw;
+    margin-bottom: 7vw;
+}
+#boite-btn{
+    display: flex;
+    justify-content: center;
+}
+
+#recherche{
+    background-color: white;
+    font-family: 'Exo 2', sans-serif;
+    border-color: white;
+    font-size: 4vw;
+    border: none;
+    color: black;
+    height: 5.5vw;
+    width: 50%;
+}
+#resultat{
+    display: none;
+}
+
+#schema{
+    height: 7vw;
+    width: 7vw;
+}
+
+#titre-resultat{
+    margin-top: 10vw;
+}
+
+.texte-resultat{
+    text-align: center;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 4vw;
+}
+#coucou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4vw;
+}
+
+#legende-schema{
+    margin-right: 3vw;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 4vw;
+}
+
+#titre-resultat{
+    text-decoration: underline;
+    margin-bottom: 4vw;
+}
+
+#ligne1{
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#ligne2{
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#boite-carte{
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: center;
+}
+
+#carte{
+    height: 396px;
+    width: 325px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balise</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="header">
+        <h2 id="titre"><i class="fa fa-compass"></i> Recherche de balise </h2>
+        <h3 id="sous-titre">Foret de Larcay</h3>
+    </div>
+
+    <div id="boite-balise">
+        <input type="number" id="balise" placeholder="Numéro de la balise"> </input>
+    </div>
+    <div id="boite-btn">
+        <button id="recherche" onclick="chercher()">Recherche</button>
+    </div>
+
+    <div id="resultat">
+        <p id="titre-resultat" class="texte-resultat"><br></p>
+        <div id="coucou">
+            <p id="legende-schema">Schéma de la balise :</p>
+            <image id="schema"></image>
+        </div>
+    <p id="ligne1" class="texte-resultat"></p>
+    <p id="ligne2"><i class="fa fa-map"></i> Position de la balise :</p>
+    <div id="boite-carte">
+        <image id="carte"></image>
+    </div>
+    </div>
+</body>
+</html>
